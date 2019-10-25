@@ -4,8 +4,6 @@ from telebot.types import Message
 from telebot import types
 import requests
 
-TOKEN = '1040156296:AAF_laopxr9kUmgcyXbW_J20CxjwuwGVPnk'
-
 bot = telebot.TeleBot(TOKEN)
 api = "https://min-api.cryptocompare.com/data/pricemulti?fsyms=EDC,DOGE&tsyms=USD,RUR&api_key=c178d4730110d00770f3362944c77b0b6caf2bee7dbb1b3b07bb780210d999bb"
 
